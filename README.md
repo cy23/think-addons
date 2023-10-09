@@ -1,8 +1,8 @@
 # think-addons
-The ThinkPHP 6 Addons Package
+The ThinkPHP 8 Addons Package
 
 ## 安装
-> composer require zzstudio/think-addons
+> composer require cy23/think-addons
 
 ## 配置
 
