@@ -328,16 +328,16 @@ class Image
                 $scale = min($width / $w, $height / $h);
                 //设置缩略图的坐标及宽度和高度
                 $x      = $y      = 0;
-                $width  = $w * $scale;
-                $height = $h * $scale;
+                $width  = intval($w * $scale);
+                $height = intval($h * $scale);
                 break;
             /* 居中裁剪 */
             case self::THUMB_CENTER:
                 //计算缩放比例
                 $scale = max($width / $w, $height / $h);
                 //设置缩略图的坐标及宽度和高度
-                $w = $width / $scale;
-                $h = $height / $scale;
+                $w = intval($width / $scale);
+                $h = intval($height / $scale);
                 $x = ($this->info['width'] - $w) / 2;
                 $y = ($this->info['height'] - $h) / 2;
                 break;
@@ -347,16 +347,16 @@ class Image
                 $scale = max($width / $w, $height / $h);
                 //设置缩略图的坐标及宽度和高度
                 $x = $y = 0;
-                $w = $width / $scale;
-                $h = $height / $scale;
+                $w = intval($width / $scale);
+                $h = intval($height / $scale);
                 break;
             /* 右下角裁剪 */
             case self::THUMB_SOUTHEAST:
                 //计算缩放比例
                 $scale = max($width / $w, $height / $h);
                 //设置缩略图的坐标及宽度和高度
-                $w = $width / $scale;
-                $h = $height / $scale;
+                $w = intval($width / $scale);
+                $h = intval($height / $scale);
                 $x = $this->info['width'] - $w;
                 $y = $this->info['height'] - $h;
                 break;
