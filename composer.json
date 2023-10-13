@@ -1,11 +1,15 @@
 {
-    "name": "topthink/think-image",
-    "description": "The ThinkPHP5 Image Package",
+    "name": "cy23/think-image",
+    "description": "The ThinkPHP8 Image Package",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "yunwuxin",
             "email": "448901948@qq.com"
+        },
+        {
+            "name": "cy23",
+            "email": "cy23@vip.qq.com"
         }
     ],
     "require": {
