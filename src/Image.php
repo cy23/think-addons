@@ -338,8 +338,8 @@ class Image
                 //设置缩略图的坐标及宽度和高度
                 $w = intval($width / $scale);
                 $h = intval($height / $scale);
-                $x = ($this->info['width'] - $w) / 2;
-                $y = ($this->info['height'] - $h) / 2;
+                $x = intval(($this->info['width'] - $w) / 2);
+                $y = intval(($this->info['height'] - $h) / 2);
                 break;
             /* 左上角裁剪 */
             case self::THUMB_NORTHWEST:
