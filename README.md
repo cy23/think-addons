@@ -1,4 +1,4 @@
-# The ThinkPHP5 Image Package
+# The ThinkPHP8 Image Package
 
 [![Build Status](https://img.shields.io/travis/top-think/think-image.svg)](https://travis-ci.org/top-think/think-image)
 [![Coverage Status](https://img.shields.io/codecov/c/github/top-think/think-image.svg)](https://codecov.io/github/top-think/think-image)
@@ -10,7 +10,7 @@
 
 ## 安装
 
-> composer require topthink/think-image
+> composer require cy23/think-image
 
 ## 使用
 
